@@ -1,0 +1,10 @@
+.installed.cfg
+.mr.developer.cfg
+buildout.cfg
+bin/
+develop-eggs/
+eggs/
+src/
+var/
+docs/
+etc/
