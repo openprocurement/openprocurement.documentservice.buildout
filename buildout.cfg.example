@@ -1,2 +1,4 @@
 [buildout]
-extends = development.cfg
+extends =
+  development.cfg
+#  statsite.cfg
