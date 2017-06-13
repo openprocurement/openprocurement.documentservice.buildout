@@ -1,0 +1,21 @@
+main:
+  app_key: ds
+  host: localhost
+  port: 8125
+  sample_rate: 1
+  disabled: False
+publish_templates:
+  default:
+    - '%(attr)s;%(metric_name)s'
+counters:
+  REQUEST_METHOD: {}
+  RESPONSE_CODE: {}
+  RANGE_CODE: {}
+  JOURNAL_ERROR_NAME: {}
+  JOURNAL_USER_AGENT: {}
+  JOURNAL_USER: {}
+  JOURNAL_REMOTE_ADDR: {}
+  JOURNAL_ERROR_STATUS: {}
+  MESSAGE_ID: {}
+histograms:
+  REQUEST_PROCESS_TIME: {}
