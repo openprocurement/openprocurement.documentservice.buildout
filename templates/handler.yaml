@@ -7,17 +7,15 @@ main:
 publish_templates:
   default:
     - '%(attr)s;%(metric_name)s'
-  all_levels:
-    - '%(logger)s;%(attr)s;%(metric_name)s'
-    - '%(attr)s;%(metric_name)s'
-    - '%(metric_name)s'
-  full_path:
-    - '%(logger)s;%(attr)s;%(metric_name)s'
-conters:
-  JOURNAL_REQUEST_METHOD: {}
+counters:
+  REQUEST_METHOD: {}
+  RESPONSE_CODE: {}
+  RANGE_CODE: {}
   JOURNAL_ERROR_NAME: {}
   JOURNAL_USER_AGENT: {}
   JOURNAL_USER: {}
   JOURNAL_REMOTE_ADDR: {}
   JOURNAL_ERROR_STATUS: {}
   MESSAGE_ID: {}
+histograms:
+  REQUEST_PROCESS_TIME: {}
