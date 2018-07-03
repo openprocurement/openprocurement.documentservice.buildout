@@ -1,2 +1,8 @@
 [buildout]
 extends = development.cfg
+#  statsd.cfg
+
+[service.ini]
+dockey = ''
+dockeys = ''
+apikeys = ''
